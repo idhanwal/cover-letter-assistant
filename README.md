@@ -1,7 +1,7 @@
 
 # AI Cover Letter Assistant
 
-Cover Letter Assistant is a React Native application designed to help users create personalized cover letters efficiently using AI.
+Cover Letter Assistant is a React Native application designed to help users create personalized cover letters efficiently.
 
 ## Table of Contents
 
@@ -9,6 +9,8 @@ Cover Letter Assistant is a React Native application designed to help users crea
 - [Setup Instructions](#setup-instructions)
   - [Prerequisites](#prerequisites)
   - [Installation Steps](#installation-steps)
+  - [iOS Setup](#ios-setup)
+  - [Android Setup](#android-setup)
 - [Running the Application](#running-the-application)
 
 ## Project Structure
@@ -42,6 +44,14 @@ Before setting up the project, ensure you have the following installed:
   npm install -g react-native-cli
   ```
 
+- **CocoaPods** (for iOS): Install using Ruby's gem package manager:
+
+  ```bash
+  sudo gem install cocoapods
+  ```
+
+- **Android Studio** (for Android): Install from [Android Developer's site](https://developer.android.com/studio).
+
 ### Installation Steps
 
 1. **Clone the Repository**:
@@ -69,6 +79,38 @@ Before setting up the project, ensure you have the following installed:
    ```bash
    yarn install
    ```
+
+### iOS Setup
+
+1. Navigate to the `ios` directory:
+
+   ```bash
+   cd ios
+   ```
+
+2. Install CocoaPods dependencies:
+
+   ```bash
+   pod install
+   ```
+
+3. Return to the project root directory:
+
+   ```bash
+   cd ..
+   ```
+
+### Android Setup
+
+1. Open the project in Android Studio:
+
+   ```bash
+   open -a "Android Studio" android
+   ```
+
+2. Ensure that all necessary Android SDK components and build tools are installed.
+
+3. Configure the Android emulator or connect a physical Android device for testing.
 
 ## Running the Application
 
